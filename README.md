@@ -1,5 +1,5 @@
 # TravelBug
-It is an online travel buddy for peoples who want to go for visiting the cities for the first time and need assistance in finding places to visit.
+It is an online travel buddy for peoples who want to go for visiting the cities for the first time and need assistance in finding places to visit.They can view details about the famous places of that city and can also open the direction to go to that place in map directly from this application.
 
 # Screenshots :
 
