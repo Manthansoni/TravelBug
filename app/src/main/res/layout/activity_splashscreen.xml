@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backcolor"
+    tools:context=".SplashScreen">
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="70sp"
+        android:textStyle="italic"
+        android:fontFamily="cursive"
+        android:layout_marginTop="150dp"
+        android:textColor="#000000"
+        android:paddingLeft="100dp"
+        android:layout_marginLeft="125dp"/>
+
+
+    <EditText
+        android:id="@+id/e_mail"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:drawableStart="@drawable/email"
+        android:drawableLeft="@drawable/email"
+        android:ems="10"
+        android:textColorHint="@color/black"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:hint="  Enter your Email"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/pass_word"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textColorHint="@color/black"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:drawableStart="@drawable/lock"
+        android:drawableLeft="@drawable/lock"
+        android:ems="10"
+        android:hint="  Enter your Password"
+        android:inputType="textPassword"/>
+-->
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        app:lottie_rawRes="@raw/globe"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TravelBug"
+        android:textSize="60sp"
+        android:textStyle="italic"
+        android:fontFamily="cursive"
+        android:textColor="@color/textcolor"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
